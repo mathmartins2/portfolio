@@ -1,0 +1,183 @@
+{
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "tech": "Tecnologias",
+    "projects": "Projetos",
+    "experience": "Experiência",
+    "contact": "Contato"
+  },
+  "hero": {
+    "available": "Disponível para trabalho",
+    "greeting": "Olá, sou",
+    "title": "Matheus Martins",
+    "subtitle": "Fullstack Dev | NestJS + React | Java | 6 anos de XP",
+    "description": "Sou desenvolvedor fullstack com 6 anos de experiência em projetos escaláveis nas áreas de leilões, educação, moda e gestão pública. Trabalho com foco em back-end (Node.js, NestJS, Java), front-end moderno (React, Next) e mobile (React Native). Tenho experiência sólida com integrações complexas (ERP, APIs externas), arquitetura de microsserviços e automação de processos com IA.",
+    "contactButton": "Entre em contato",
+    "projectsButton": "Ver projetos"
+  },
+  "about": {
+    "title": "Sobre mim",
+    "sectionNumber": "01.",
+    "paragraph1": "Sou desenvolvedor fullstack com 6 anos de experiência em projetos escaláveis nas áreas de gestão documental (ECM), automação de processos (BPM), leilões, educação e moda. Meu foco é em back-end (Node.js, NestJS, Java) e front-end moderno (React, Next).",
+    "paragraph2": "Tenho experiência sólida com integrações complexas (ERP, APIs externas), arquitetura de microsserviços, automação de processos com IA e desenvolvimento de agentes inteligentes. Sou movido por entregar soluções eficientes que reduzem custo, escalam produto e resolvem problemas reais.",
+    "paragraph3": "Atualmente trabalho na Superbid, onde contribuo diretamente para a evolução de uma plataforma de leilões online que processa milhares de ofertas, usuários e eventos críticos diariamente. Tenho forte foco em performance, escalabilidade, resiliência e qualidade de código.",
+    "skillsTitle": "Minhas habilidades",
+    "skills": [
+      "6 anos de experiência em desenvolvimento",
+      "Experiência com empresas internacionais (EUA)",
+      "Experiência com IA e agentes inteligentes (Azure AI, LLMs)",
+      "Trabalhei com times distribuídos LATAM com comunicação em inglês",
+      "Vivência em startups e empresas de tecnologia",
+      "Criação de features do zero",
+      "Otimização de recursos e performance"
+    ],
+    "certificationsTitle": "Certificações & Cursos",
+    "certifications": [
+      "JavaScript Masterclass (branas.io)",
+      "Clean Code & Clean Architecture in Node.js (branas.io)",
+      "Certificação Amazon AWS Solutions Architect Associate (Andre Iacono)",
+      "React Js do zero ao avançado na prática (Udemy)",
+      "Curso de Java (Rocketseat)"
+    ]
+  },
+  "tech": {
+    "title": "Tecnologias",
+    "sectionNumber": "02.",
+    "categories": {
+      "backend": "Back-end",
+      "frontend": "Front-end",
+      "messaging": "Mensageria",
+      "cloud": "Cloud & Infra",
+      "data": "Dados",
+      "quality": "Qualidade",
+      "other": "Outros"
+    },
+    "technologies": [
+      { "name": "JavaScript/TypeScript", "category": "backend", "years": "6 anos" },
+      { "name": "NestJS", "category": "backend", "years": "6 anos" },
+      { "name": "React", "category": "frontend", "years": "6 anos" },
+      { "name": "TypeORM", "category": "backend", "years": "5 anos" },
+      { "name": "Express", "category": "backend", "years": "5 anos" },
+      { "name": "Prisma", "category": "backend", "years": "4 anos" },
+      { "name": "Jest", "category": "quality", "years": "4 anos" },
+      { "name": "Next.js", "category": "frontend", "years": "3 anos" },
+      { "name": "Java 8, 11, 17, 21", "category": "backend", "years": "2 anos" },
+      { "name": "JPA / Hibernate", "category": "backend", "years": "2 anos" },
+      { "name": "Spring", "category": "backend", "years": "2 anos" },
+      { "name": "Kotlin", "category": "backend", "years": "2 anos" },
+      { "name": "Redis", "category": "data", "years": "4 anos" },
+      { "name": "MongoDB", "category": "data", "years": "5 anos" },
+      { "name": "PostgreSQL", "category": "data", "years": "6 anos" },
+      { "name": "MySQL", "category": "data", "years": "5 anos" },
+      { "name": "Docker", "category": "cloud", "years": "6 anos" },
+      { "name": "RabbitMQ", "category": "messaging", "years": "3 anos" },
+      { "name": "Laravel", "category": "backend", "years": "2 anos" },
+      { "name": "PHP", "category": "backend", "years": "4 anos" },
+      { "name": "LLM's", "category": "other", "years": "2 anos" },
+      { "name": "CI/CD", "category": "cloud", "years": "6 anos" }
+    ]
+  },
+  "projects": {
+    "title": "Projetos",
+    "sectionNumber": "03.",
+    "items": [
+      {
+        "title": "Superbid Gestor",
+        "description": "Plataforma de leilões online de alta escala onde atuo no processamento de milhares de ofertas, usuários e eventos críticos diariamente. Desenvolvi pipelines ETL para automação e validação de dados, solução de IA para análise automática de planilhas e integração com Google Maps API. Também utilizo ferramentas de IA como Lovable, Cursor e Claude Code para acelerar o desenvolvimento.",
+        "tags": ["Java", "Node.js", "React", "AWS", "Microsserviços", "Redis", "IA", "Lovable", "Cursor"]
+      },
+      {
+        "title": "Interfy ECM & BPM Platform",
+        "description": "Atuo no desenvolvimento de features essenciais da plataforma de ECM e BPM de uma empresa internacional dos EUA. Desenvolvo funcionalidades de gestão de documentos, workflows automatizados e permissões granulares. Também trabalho no agente de IA integrado à plataforma usando Azure AI e no desenvolvimento do app mobile com React Native.",
+        "tags": ["Node.js", "Vue", "PHP", "React Native", "AWS", "MySQL", "Azure AI", "ECM", "BPM"]
+      },
+      {
+        "title": "Plataforma B2B Moda (Teceo)",
+        "description": "Liderei o desenvolvimento de integrações complexas com TOTVS (ERP) em uma solução B2B para o setor de moda. Criei pipelines robustos para comunicação entre APIs (RESTful e SOAP), tratamento de dados estruturados e automação de rotinas operacionais focadas em controle de estoque, pedidos e faturamento.",
+        "tags": ["Node.js", "React", "RabbitMQ", "TOTVS", "Design Patterns"]
+      },
+      {
+        "title": "Plataforma de Gestão Empresarial (Empreende Aqui)",
+        "description": "Liderei a migração arquitetural de sistema monolítico C# para microsserviços com Node.js em uma plataforma para criação e gestão de empresas 100% online. Desenvolvi serviços para geração dinâmica de PDFs e disparo automatizado de e-mails.",
+        "tags": ["Node.js", "React", "RabbitMQ", "Microsserviços", "Clean Code"]
+      },
+      {
+        "title": "Plataforma de Gestão Educacional (Suporte Gerencial)",
+        "description": "Desenvolvi o núcleo de uma plataforma de gestão educacional em larga escala utilizada por cerca de 20 prefeituras. Fui responsável pelo cadastro e controle de notas escolares, diários de classe e rotinas acadêmicas críticas. Também desenvolvi o aplicativo mobile do CREA Pernambuco em React Native.",
+        "tags": ["PHP", "Node.js", "React", "React Native", "Laravel", "PostgreSQL"]
+      },
+      {
+        "title": "Sistema Preditivo de Gestão Alimentar Escolar (SICAP)",
+        "description": "Implementei um sistema preditivo inteligente para gestão do setor alimentar escolar que analisa histórico de consumo por escola, permitindo previsão de demanda com base em dados reais. O sistema reduziu significativamente os custos com desperdício de alimentos.",
+        "tags": ["PHP", "Node.js", "PostgreSQL", "Sistema Preditivo", "Data Analysis"]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experiência",
+    "sectionNumber": "04.",
+    "items": [
+      {
+        "period": "Out/2023 – Atual",
+        "role": "Desenvolvedor Fullstack Java/Node/React",
+        "company": "Superbid",
+        "location": "Remoto",
+        "description": "Atuo no desenvolvimento da plataforma Gestor, voltada para leilões online, processando milhares de ofertas, usuários e eventos críticos diariamente. Lidero integrações complexas de dados estruturados (Excel), implementando pipelines ETL para automação e validação. Desenvolvi solução de IA para análise automática de planilhas e integrei a API do Google Maps para roteirização logística. Utilizo ferramentas de IA como Lovable, Cursor e Claude Code para acelerar o desenvolvimento.",
+        "technologies": ["Java", "Node.js", "React", "AWS", "Microsserviços", "Redis", "IA", "Lovable", "Cursor", "Claude Code"]
+      },
+      {
+        "period": "",
+        "role": "Desenvolvedor Fullstack",
+        "company": "Interfy (EUA)",
+        "location": "Remoto",
+        "description": "Atuo no desenvolvimento de features essenciais da plataforma de ECM (Enterprise Content Management) e BPM (Business Process Management) de uma empresa internacional dos EUA. Desenvolvo funcionalidades como gestão avançada de documentos, workflows automatizados, controle de versões e permissões granulares. Também trabalho no agente de IA integrado à plataforma usando Azure AI e no desenvolvimento do aplicativo mobile da empresa com React Native.",
+        "technologies": ["Node.js", "Vue", "PHP", "React Native", "AWS", "MySQL", "Azure AI", "ECM", "BPM"]
+      },
+      {
+        "period": "Mai/2023 – Out/2023",
+        "role": "Desenvolvedor Fullstack Node/React",
+        "company": "Teceo",
+        "location": "Remoto",
+        "description": "Atuei como Desenvolvedor Fullstack em uma solução B2B para o setor de moda, liderando e implementando integrações complexas com o sistema TOTVS (ERP). Criei pipelines robustos para comunicação entre APIs, realizando integrações RESTful e SOAP, tratamento de dados estruturados e automação de rotinas operacionais. Todas as soluções foram desenvolvidas com foco em resiliência, desacoplamento e performance. Trabalhei em ambiente ágil, com aplicação de Design Patterns, testes automatizados e versionamento semântico.",
+        "technologies": ["Node.js", "React", "RabbitMQ", "TOTVS", "RESTful", "SOAP", "Design Patterns"]
+      },
+      {
+        "period": "Dez/2022 – Mai/2023",
+        "role": "Desenvolvedor Fullstack C#/Node/React",
+        "company": "Empreende Aqui",
+        "location": "Remoto",
+        "description": "Atuei como Fullstack Developer em uma plataforma para criação e gestão de empresas 100% online, liderando a migração arquitetural de um sistema monolítico em C# para microsserviços com Node.js. Estruturei a arquitetura de serviços independentes com foco em escalabilidade e manutenibilidade, implementando comunicação via mensageria (RabbitMQ) e REST APIs. Desenvolvi serviços para geração dinâmica de documentos em PDF e disparo automatizado de e-mails.",
+        "technologies": ["C#", "Node.js", "React", "RabbitMQ", "Microsserviços", "REST APIs", "PDF Generation"]
+      },
+      {
+        "period": "Jan/2021 – Dez/2022",
+        "role": "Desenvolvedor Fullstack PHP/Node/React",
+        "company": "Suporte Gerencial",
+        "location": "Remoto",
+        "description": "Atuei no desenvolvimento de uma plataforma de gestão educacional em larga escala, utilizada por cerca de 20 prefeituras. Fui responsável pelo núcleo da aplicação, com foco em cadastro e controle de notas escolares, diários de classe e rotinas acadêmicas. Também desenvolvi o aplicativo mobile do CREA Pernambuco em React Native.",
+        "technologies": ["PHP", "Node.js", "React", "React Native", "Laravel", "PostgreSQL"]
+      },
+      {
+        "period": "Jan/2020 – Dez/2021",
+        "role": "Desenvolvedor Fullstack PHP/Node",
+        "company": "SICAP Soluções",
+        "location": "Presencial",
+        "description": "Colaborei no desenvolvimento de uma plataforma educacional especializada na gestão do setor alimentar escolar, abrangendo controle de compras, estoque, validade e planejamento de aquisições. Fui responsável pela implementação de um sistema preditivo inteligente que analisava o histórico de consumo por escola, permitindo previsão de demanda com base em dados reais. O módulo reduziu significativamente os custos com desperdício de alimentos.",
+        "technologies": ["PHP", "Node.js", "PostgreSQL", "Sistema Preditivo", "Data Analysis"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contato",
+    "sectionNumber": "05.",
+    "description": "Estou sempre aberto a novas oportunidades e projetos interessantes. Entre em contato comigo através das redes sociais ou email.",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "common": {
+    "viewProject": "Ver projeto",
+    "viewCode": "Ver código"
+  }
+}
