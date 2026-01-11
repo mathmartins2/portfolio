@@ -3,8 +3,6 @@
 import { motion } from "framer-motion";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink, Github } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
@@ -25,10 +23,7 @@ export function Projects() {
     tags: string[];
   }>;
   return (
-    <section
-      id="projects"
-      className="py-24 md:py-32 relative"
-    >
+    <section id="projects" className="py-24 md:py-32 relative">
       <div className="container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -38,7 +33,9 @@ export function Projects() {
           className="max-w-6xl mx-auto"
         >
           <div className="flex items-center gap-4 mb-12">
-            <span className="font-mono text-amber text-sm">{t("sectionNumber")}</span>
+            <span className="font-mono text-amber text-sm">
+              {t("sectionNumber")}
+            </span>
             <h2 className="text-3xl md:text-4xl font-bold">{t("title")}</h2>
             <div className="flex-1 h-px bg-border" />
           </div>
@@ -62,38 +59,16 @@ export function Projects() {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-card via-card/20 to-transparent" />
                   </div>
-                  
+
                   <div className="p-6 flex-1 flex flex-col">
-                    <div className="flex items-start justify-between mb-3">
-                      <h3 className="font-semibold text-lg">{project.title}</h3>
-                      <div className="flex gap-2">
-                        <Button
-                          variant="ghost"
-                          size="icon"
-                          className="h-8 w-8"
-                          asChild
-                        >
-                          <a href="#" target="_blank" rel="noopener noreferrer">
-                            <Github className="h-4 w-4" />
-                          </a>
-                        </Button>
-                        <Button
-                          variant="ghost"
-                          size="icon"
-                          className="h-8 w-8"
-                          asChild
-                        >
-                          <a href="#" target="_blank" rel="noopener noreferrer">
-                            <ExternalLink className="h-4 w-4" />
-                          </a>
-                        </Button>
-                      </div>
-                    </div>
-                    
+                    <h3 className="font-semibold text-lg mb-3">
+                      {project.title}
+                    </h3>
+
                     <p className="text-sm text-muted-foreground mb-4 flex-1">
                       {project.description}
                     </p>
-                    
+
                     <div className="flex flex-wrap gap-2">
                       {project.tags.map((tag) => (
                         <Badge
