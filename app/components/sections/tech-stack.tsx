@@ -5,9 +5,15 @@ import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 
+function extractYears(yearsStr: string): number {
+  const match = yearsStr.match(/\d+/);
+  return match ? parseInt(match[0], 10) : 0;
+}
+
 export function TechStack() {
   const t = useTranslations("tech");
-  const technologies = t.raw("technologies") as Array<{ name: string; category: string; years: string }>;
+  const rawTechnologies = t.raw("technologies") as Array<{ name: string; category: string; years: string }>;
+  const technologies = [...rawTechnologies].sort((a, b) => extractYears(b.years) - extractYears(a.years));
   return (
     <section
       id="tech"
