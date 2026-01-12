@@ -89,7 +89,7 @@
     "items": [
       {
         "title": "Superbid Gestor",
-        "description": "High-scale online auction platform where I work on processing thousands of bids, users, and critical events daily. I developed ETL pipelines for data automation and validation, an AI solution for automatic spreadsheet analysis, and integrated Google Maps API. I also use AI tools like Lovable, Cursor, and Claude Code to accelerate development.",
+        "description": "High-scale online auction platform where I work on processing thousands of bids, users, and critical events daily. I develop the entire product creation flow up to the event configuration where those products are listed. I developed ETL pipelines for data automation and validation, an AI solution for automatic spreadsheet analysis, and integrated Google Maps API. I use AI tools like Lovable, Cursor, and Claude Code to accelerate development.",
         "tags": ["Java", "Node.js", "React", "AWS", "Microservices", "Redis", "AI", "Lovable", "Cursor"]
       },
       {
@@ -104,7 +104,7 @@
       },
       {
         "title": "Business Management Platform (Empreende Aqui)",
-        "description": "I led the architectural migration from a monolithic C# system to microservices with Node.js on a platform for creating and managing companies 100% online. I developed services for dynamic PDF generation and automated email sending.",
+        "description": "I led the architectural migration from a monolithic C# system to microservices with Node.js on a platform for creating and managing companies 100% online. I developed services for accounting PDF generation, automated email sending, and the leads capture screen.",
         "tags": ["Node.js", "React", "RabbitMQ", "Microservices", "Clean Code"]
       },
       {
@@ -128,7 +128,7 @@
         "role": "Fullstack Developer Java/Node/React",
         "company": "Superbid",
         "location": "Remote",
-        "description": "I work on the development of the Gestor platform, focused on online auctions, processing thousands of bids, users, and critical events daily. I lead complex integrations of structured data (Excel), implementing ETL pipelines for automation and validation. I developed an AI solution for automatic spreadsheet analysis and integrated the Google Maps API for logistics routing. I use AI tools like Lovable, Cursor, and Claude Code to accelerate development.",
+        "description": "I work on the development of the Gestor platform, focused on online auctions, processing thousands of bids, users, and critical events daily. I develop the entire product creation flow up to the event configuration where those products are listed. I lead complex integrations of structured data (Excel), implementing ETL pipelines for automation and validation. I developed an AI solution for automatic spreadsheet analysis and integrated the Google Maps API for logistics routing. I use AI tools like Lovable, Cursor, and Claude Code to accelerate development.",
         "technologies": ["Java", "Node.js", "React", "AWS", "Microservices", "Redis", "AI", "Lovable", "Cursor", "Claude Code"]
       },
       {
@@ -152,7 +152,7 @@
         "role": "Fullstack Developer C#/Node/React",
         "company": "Empreende Aqui",
         "location": "Remote",
-        "description": "I worked as a Fullstack Developer on a platform for creating and managing companies 100% online, leading the architectural migration from a monolithic C# system to microservices with Node.js. I structured the architecture of independent services with a focus on scalability and maintainability, implementing communication via messaging (RabbitMQ) and REST APIs. I developed services for dynamic PDF document generation and automated email sending.",
+        "description": "I worked as a Fullstack Developer on a platform for creating and managing companies 100% online, leading the architectural migration from a monolithic C# system to microservices with Node.js. I structured the architecture of independent services with a focus on scalability and maintainability, implementing communication via messaging (RabbitMQ) and REST APIs. I developed services for accounting PDF generation, automated email sending, and the leads capture screen.",
         "technologies": ["C#", "Node.js", "React", "RabbitMQ", "Microservices", "REST APIs", "PDF Generation"]
       },
       {

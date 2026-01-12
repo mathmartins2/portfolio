@@ -89,7 +89,7 @@
     "items": [
       {
         "title": "Superbid Gestor",
-        "description": "Plataforma de leilões online de alta escala onde atuo no processamento de milhares de ofertas, usuários e eventos críticos diariamente. Desenvolvi pipelines ETL para automação e validação de dados, solução de IA para análise automática de planilhas e integração com Google Maps API. Também utilizo ferramentas de IA como Lovable, Cursor e Claude Code para acelerar o desenvolvimento.",
+        "description": "Plataforma de leilões online de alta escala onde atuo no processamento de milhares de ofertas, usuários e eventos críticos diariamente. Desenvolvo toda a parte de criação de produtos até a configuração do evento onde vão esses produtos. Desenvolvi pipelines ETL para automação e validação de dados, solução de IA para análise automática de planilhas e integração com Google Maps API. Utilizo ferramentas de IA como Lovable, Cursor e Claude Code para acelerar o desenvolvimento.",
         "tags": ["Java", "Node.js", "React", "AWS", "Microsserviços", "Redis", "IA", "Lovable", "Cursor"]
       },
       {
@@ -104,7 +104,7 @@
       },
       {
         "title": "Plataforma de Gestão Empresarial (Empreende Aqui)",
-        "description": "Liderei a migração arquitetural de sistema monolítico C# para microsserviços com Node.js em uma plataforma para criação e gestão de empresas 100% online. Desenvolvi serviços para geração dinâmica de PDFs e disparo automatizado de e-mails.",
+        "description": "Liderei a migração arquitetural de sistema monolítico C# para microsserviços com Node.js em uma plataforma para criação e gestão de empresas 100% online. Desenvolvi serviços para geração de PDFs para contabilidade, disparo automatizado de e-mails e a tela de captura de leads.",
         "tags": ["Node.js", "React", "RabbitMQ", "Microsserviços", "Clean Code"]
       },
       {
@@ -128,7 +128,7 @@
         "role": "Desenvolvedor Fullstack Java/Node/React",
         "company": "Superbid",
         "location": "Remoto",
-        "description": "Atuo no desenvolvimento da plataforma Gestor, voltada para leilões online, processando milhares de ofertas, usuários e eventos críticos diariamente. Lidero integrações complexas de dados estruturados (Excel), implementando pipelines ETL para automação e validação. Desenvolvi solução de IA para análise automática de planilhas e integrei a API do Google Maps para roteirização logística. Utilizo ferramentas de IA como Lovable, Cursor e Claude Code para acelerar o desenvolvimento.",
+        "description": "Atuo no desenvolvimento da plataforma Gestor, voltada para leilões online, processando milhares de ofertas, usuários e eventos críticos diariamente. Desenvolvo toda a parte de criação de produtos até a configuração do evento onde vão esses produtos. Lidero integrações complexas de dados estruturados (Excel), implementando pipelines ETL para automação e validação. Desenvolvi solução de IA para análise automática de planilhas e integrei a API do Google Maps para roteirização logística. Utilizo ferramentas de IA como Lovable, Cursor e Claude Code para acelerar o desenvolvimento.",
         "technologies": ["Java", "Node.js", "React", "AWS", "Microsserviços", "Redis", "IA", "Lovable", "Cursor", "Claude Code"]
       },
       {
@@ -152,7 +152,7 @@
         "role": "Desenvolvedor Fullstack C#/Node/React",
         "company": "Empreende Aqui",
         "location": "Remoto",
-        "description": "Atuei como Fullstack Developer em uma plataforma para criação e gestão de empresas 100% online, liderando a migração arquitetural de um sistema monolítico em C# para microsserviços com Node.js. Estruturei a arquitetura de serviços independentes com foco em escalabilidade e manutenibilidade, implementando comunicação via mensageria (RabbitMQ) e REST APIs. Desenvolvi serviços para geração dinâmica de documentos em PDF e disparo automatizado de e-mails.",
+        "description": "Atuei como Fullstack Developer em uma plataforma para criação e gestão de empresas 100% online, liderando a migração arquitetural de um sistema monolítico em C# para microsserviços com Node.js. Estruturei a arquitetura de serviços independentes com foco em escalabilidade e manutenibilidade, implementando comunicação via mensageria (RabbitMQ) e REST APIs. Desenvolvi serviços para geração de PDFs para contabilidade, disparo automatizado de e-mails e a tela de captura de leads.",
         "technologies": ["C#", "Node.js", "React", "RabbitMQ", "Microsserviços", "REST APIs", "PDF Generation"]
       },
       {
