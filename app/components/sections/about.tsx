@@ -3,9 +3,12 @@
 import { motion } from "framer-motion";
 import { Card } from "@/components/ui/card";
 import { useTranslations } from "next-intl";
+import { calculateAge, calculateExperienceYears } from "@/lib/utils";
 
 export function About() {
   const t = useTranslations("about");
+  const age = calculateAge();
+  const exp = calculateExperienceYears();
   
   return (
     <section
@@ -35,7 +38,7 @@ export function About() {
               className="space-y-4"
             >
               <p className="text-muted-foreground leading-relaxed">
-                {t("paragraph1")}
+                {t("paragraph1", { age, exp })}
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 {t("paragraph2")}
@@ -56,7 +59,7 @@ export function About() {
                 <h3 className="font-semibold mb-4">{t("skillsTitle")}</h3>
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   {t.raw("skills").map((skill: string, index: number) => (
-                    <li key={index}>• {skill}</li>
+                    <li key={index}>• {skill.replace("{exp}", String(exp))}</li>
                   ))}
                 </ul>
               </Card>

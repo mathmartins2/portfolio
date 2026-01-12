@@ -4,9 +4,11 @@ import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl";
+import { calculateExperienceYears } from "@/lib/utils";
 
 export function Hero() {
   const t = useTranslations("hero");
+  const exp = calculateExperienceYears();
   
   const scrollToContact = () => {
     const element = document.querySelector("#contact");
@@ -52,7 +54,7 @@ export function Hero() {
             className="font-mono text-5xl md:text-7xl lg:text-8xl font-bold leading-none"
           >
             <span className="block text-gradient">{t("title")}</span>
-            <span className="block text-foreground mt-2 text-2xl md:text-3xl lg:text-4xl font-normal">{t("subtitle")}</span>
+            <span className="block text-foreground mt-2 text-2xl md:text-3xl lg:text-4xl font-normal">{t("subtitle", { exp })}</span>
           </motion.h1>
 
           <motion.p
@@ -61,7 +63,7 @@ export function Hero() {
             transition={{ delay: 0.5, duration: 0.6 }}
             className="max-w-2xl mx-auto text-lg md:text-xl text-muted-foreground leading-relaxed"
           >
-            {t("description")}
+            {t("description", { exp })}
           </motion.p>
 
           <motion.div
