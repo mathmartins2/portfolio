@@ -13,7 +13,11 @@ function extractYears(yearsStr: string): number {
 export function TechStack() {
   const t = useTranslations("tech");
   const rawTechnologies = t.raw("technologies") as Array<{ name: string; category: string; years: string }>;
-  const technologies = [...rawTechnologies].sort((a, b) => extractYears(b.years) - extractYears(a.years));
+  const technologies = [...rawTechnologies].sort((a, b) => {
+    const yearsDiff = extractYears(b.years) - extractYears(a.years);
+    if (yearsDiff !== 0) return yearsDiff;
+    return a.name.localeCompare(b.name);
+  });
   return (
     <section
       id="tech"
