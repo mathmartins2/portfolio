@@ -51,7 +51,7 @@
       "cloud": "Cloud & Infra",
       "data": "Data",
       "quality": "Quality",
-      "other": "Other"
+      "ai": "AI"
     },
     "technologies": [
       { "name": "JavaScript/TypeScript", "category": "backend", "years": "6 years" },
@@ -75,11 +75,11 @@
       { "name": "MySQL", "category": "data", "years": "5 years" },
       { "name": "Docker", "category": "cloud", "years": "6 years" },
       { "name": "AWS", "category": "cloud", "years": "5 years" },
-      { "name": "Azure AI", "category": "cloud", "years": "1 year" },
+      { "name": "Azure AI", "category": "ai", "years": "1 year" },
       { "name": "RabbitMQ", "category": "messaging", "years": "3 years" },
       { "name": "Laravel", "category": "backend", "years": "2 years" },
       { "name": "PHP", "category": "backend", "years": "4 years" },
-      { "name": "LLM's", "category": "other", "years": "2 years" },
+      { "name": "LLM's", "category": "ai", "years": "2 years" },
       { "name": "CI/CD", "category": "cloud", "years": "6 years" }
     ]
   },
