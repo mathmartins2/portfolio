@@ -99,8 +99,8 @@
       },
       {
         "title": "Fashion B2B Platform (Teceo)",
-        "description": "I led the development of complex integrations with TOTVS (ERP) in a B2B solution for the fashion sector. I created robust pipelines for API communication (RESTful and SOAP), structured data processing, and automation of operational routines focused on inventory control, orders, and billing.",
-        "tags": ["Node.js", "React", "RabbitMQ", "TOTVS", "Design Patterns"]
+        "description": "I developed the inventory synchronization module between Teceo and TOTVS Moda (ERP), as well as orders and billing. I worked on complex integrations with RESTful APIs, structured data processing, and automation of operational routines.",
+        "tags": ["Node.js", "React", "RabbitMQ", "TOTVS Moda", "Design Patterns"]
       },
       {
         "title": "Business Management Platform (Empreende Aqui)",
@@ -144,8 +144,8 @@
         "role": "Fullstack Developer Node/React",
         "company": "Teceo",
         "location": "Remote",
-        "description": "I worked as a Fullstack Developer in a B2B solution for the fashion sector, leading and implementing complex integrations with the TOTVS system (ERP). I created robust pipelines for API communication, performing RESTful and SOAP integrations, structured data processing, and automation of operational routines. All solutions were developed with a focus on resilience, decoupling, and performance. I worked in an agile environment, with application of Design Patterns, automated tests, and semantic versioning.",
-        "technologies": ["Node.js", "React", "RabbitMQ", "TOTVS", "RESTful", "SOAP", "Design Patterns"]
+        "description": "I worked as a Fullstack Developer in a B2B solution for the fashion sector. I developed the inventory synchronization module between Teceo and TOTVS Moda (ERP), as well as orders and billing. I worked with RESTful integrations, structured data processing, and automation of operational routines with a focus on resilience and performance.",
+        "technologies": ["Node.js", "React", "RabbitMQ", "TOTVS Moda", "RESTful", "Design Patterns"]
       },
       {
         "period": "Dec/2022 – May/2023",

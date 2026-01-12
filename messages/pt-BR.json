@@ -99,8 +99,8 @@
       },
       {
         "title": "Plataforma B2B Moda (Teceo)",
-        "description": "Liderei o desenvolvimento de integrações complexas com TOTVS (ERP) em uma solução B2B para o setor de moda. Criei pipelines robustos para comunicação entre APIs (RESTful e SOAP), tratamento de dados estruturados e automação de rotinas operacionais focadas em controle de estoque, pedidos e faturamento.",
-        "tags": ["Node.js", "React", "RabbitMQ", "TOTVS", "Design Patterns"]
+        "description": "Desenvolvi o módulo de sincronização de estoque entre a Teceo e o TOTVS Moda (ERP), assim como pedidos e faturamento. Atuei em integrações complexas com APIs RESTful, tratamento de dados estruturados e automação de rotinas operacionais.",
+        "tags": ["Node.js", "React", "RabbitMQ", "TOTVS Moda", "Design Patterns"]
       },
       {
         "title": "Plataforma de Gestão Empresarial (Empreende Aqui)",
@@ -144,8 +144,8 @@
         "role": "Desenvolvedor Fullstack Node/React",
         "company": "Teceo",
         "location": "Remoto",
-        "description": "Atuei como Desenvolvedor Fullstack em uma solução B2B para o setor de moda, liderando e implementando integrações complexas com o sistema TOTVS (ERP). Criei pipelines robustos para comunicação entre APIs, realizando integrações RESTful e SOAP, tratamento de dados estruturados e automação de rotinas operacionais. Todas as soluções foram desenvolvidas com foco em resiliência, desacoplamento e performance. Trabalhei em ambiente ágil, com aplicação de Design Patterns, testes automatizados e versionamento semântico.",
-        "technologies": ["Node.js", "React", "RabbitMQ", "TOTVS", "RESTful", "SOAP", "Design Patterns"]
+        "description": "Atuei como Desenvolvedor Fullstack em uma solução B2B para o setor de moda. Desenvolvi o módulo de sincronização de estoque entre a Teceo e o TOTVS Moda (ERP), assim como pedidos e faturamento. Trabalhei com integrações RESTful, tratamento de dados estruturados e automação de rotinas operacionais com foco em resiliência e performance.",
+        "technologies": ["Node.js", "React", "RabbitMQ", "TOTVS Moda", "RESTful", "Design Patterns"]
       },
       {
         "period": "Dez/2022 – Mai/2023",
