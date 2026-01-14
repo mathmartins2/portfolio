@@ -122,6 +122,8 @@
   "experience": {
     "title": "Experiência",
     "sectionNumber": "04.",
+    "showMore": "Ver mais",
+    "showLess": "Ver menos",
     "items": [
       {
         "period": "Out/2023 – Atual",

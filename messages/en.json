@@ -122,6 +122,8 @@
   "experience": {
     "title": "Experience",
     "sectionNumber": "04.",
+    "showMore": "Show more",
+    "showLess": "Show less",
     "items": [
       {
         "period": "Oct/2023 – Present",
